@@ -1,10 +1,10 @@
 # Projects: A Minimal Rust Shell
 
-## 🚀 Project Title and Short Description
+## Project Title and Short Description
 
 **Projects** is a repository showcasing a minimal, interactive command-line shell application, affectionately named "mini-shell," developed in Rust. This project aims to provide a robust and responsive command-line interface, leveraging Rust's performance and safety features. Designed with a focus on core shell functionalities and an enhanced user experience, "mini-shell" offers an entry point into understanding interactive CLI applications built with modern systems programming languages. Its design appears to have specific considerations for Windows environments, indicated by platform-specific dependencies.
 
-## ✨ Features
+## Features
 
 The "mini-shell" application within this project provides the following key features:
 
@@ -15,7 +15,7 @@ The "mini-shell" application within this project provides the following key feat
 *   **Efficient Input Handling:** Utilizes libraries like `unicode_segmentation` and `unicode_width` for correct handling of various character sets and display widths, ensuring a smooth experience.
 *   **Robust Foundation:** Built with a strong set of utility crates for memory management (`smallvec`, `nibble_vec`), data structures (`radix_trie`), and system interactions (`libc`, `home`, `fd_lock`), providing a solid base for future expansions.
 
-## 📦 Tech Stack
+## Tech Stack
 
 This project is primarily built using the following technologies:
 
@@ -41,7 +41,7 @@ This project is primarily built using the following technologies:
 *   [`unicode_segmentation`](https://crates.io/crates/unicode-segmentation): Unicode text segmentation algorithms.
 *   [`unicode_width`](https://crates.io/crates/unicode-width): Utilities for determining the width of Unicode characters.
 
-## 📁 Project Structure
+## Project Structure
 
 The project follows a standard Rust project layout. The most relevant files for development and usage are:
 
@@ -96,7 +96,7 @@ To set up and run the "mini-shell" project, you need to have the Rust toolchain 
         ```
         The release executable will be located at `target/release/mini-shell.exe` (on Windows) or `target/release/mini-shell` (on Linux/macOS).
 
-## 🚀 Usage
+## Usage
 
 Once the project is built, you can run the "mini-shell" application from your terminal.
 
